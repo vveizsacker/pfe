@@ -1,0 +1,53 @@
+.image-input{
+    height: 50vh;
+    width: 50vh;
+    background: rgb(29, 29, 29);
+    overflow: hidden;
+}
+
+.image-input img{
+    width: 100%;
+}
+
+form{
+    float: left;
+    padding: 5vw;
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.report{
+    padding: 5vw;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.report .group{
+    display: flex;
+    gap: 20px;
+}
+.report .group .label{
+    font-weight: 400;
+    flex: 1;
+}
+.report .group .result{
+    flex: 5;
+    filter: brightness(.8);
+}
+.report p{
+    filter: brightness(.8);
+}
+form .nav{
+    height: 10vh;
+    
+}
+

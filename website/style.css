@@ -1,0 +1,105 @@
+*{
+    --color1 : rgb(16, 110, 29);
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    color: white;
+}
+.icon{
+    width: 1vw;
+    height: 1vw;
+}
+body{
+    background: rgb(12, 12, 12)
+}
+h1{
+    font-size: 4vw;
+}
+h2{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+p{
+    font-size: 2.5vh;
+    font-weight: 250;
+}
+nav{
+    height: 9vh;   
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+
+}
+nav ul{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    padding:  2vh 3vh;
+}
+nav a:hover{
+    background: var(--color1);
+}
+
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#header .box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button{
+    padding:  2vh 3vh;
+
+    max-width: 120px;
+    border: none;
+    border-radius: 20px;
+    background: var(--color1);
+}
+
+.button-l{
+    outline: 1px solid var(--color1);
+    border-radius: 20vw;
+    color: var(--color1);
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--color1);
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.sidebar a:hover{
+    background: var(--color1);
+    color: white;
+}
+.sidebar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
